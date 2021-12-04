@@ -1,0 +1,75 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+@media (max-width: 1000px) {
+    body{
+        padding: 1vmax;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+body{
+    padding: 1vmax;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 5vw;
+    text-align: center;
+}
+
+button{
+    width: 50vw;
+    height: 150px;
+    border: 2px solid #5988FF;
+    border-radius: 8px;
+    background-color: #5988FF;
+    margin: 3vmax 0 2vmax 0;
+    font-size: 5vmin;
+    transition: background-color 500ms;
+}
+
+button:hover{
+    background-color: #8b6bff;
+}
+
+input{
+    font-size: 5vmin;
+    margin: 3vmax 0 0 0;
+    width: 50vw;
+    height: 150px;
+    border: 2px solid #5988FF;
+    border-radius: 8px;
+}
+
+.color{
+    height: 60vmax;
+    width: 80vw;
+    border: 2px solid #5988FF;
+    border-radius: 8px;
+    background-color: transparent;
+}
